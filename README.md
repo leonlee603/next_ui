@@ -2,7 +2,7 @@ This is a simple NextUI
 
 ## Getting Started
 
-###Install NextUI
+### Install NextUI
 
 ```bash
 npm rinstall @nextui-org/react framer-motion
@@ -30,7 +30,7 @@ module.exports = {
   plugins: [nextui()],
 };
 ```
-###Providers setup
+### Providers setup
 Create a `providers.ts` file in `app` folder.
 
 ```bash
@@ -48,10 +48,11 @@ export default function Providers({ children }: ProvidersProps) {
 }
 
 ```
-###Apply the Providers to layout
+### Apply the Providers to layout
 Go to `layout.tsx`.
 
 ```bash
+// layout.tsx
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
